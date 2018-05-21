@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="float-grid.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>World Quiz</title>
+</head>
+
+<body>
+    <header id="unchangedInfoContainer" role="banner">
+        <h1 class="quizName">WORLD QUIZ</h1>
+        <div class=img-wrap>
+            <img class="mapImage" src="https://i.imgur.com/2t7WRDb.png" alt="black png world map" />
+        </div>
+        <div class="content-wrap">
+            <div class="statusHeader">
+                <div class="statusInfo">Question: <span class="questionNumber">0</span> of 7</div>
+                <div class="statusInfo">Score: <span class="scoreNumber">0</span> of 7</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="full-view-container" id="main" role="main">
+        <div id="changing-info-wrap">
+            <form>
+                <div class="title">
+                    <h3>How many random facts do you know about the world?</h3>
+                </div>
+                <div class="subtitle">
+                    <h3>Let's find out!</h3>
+                    <button id="nextQuestionBtn" class="submit">Start Quiz</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
