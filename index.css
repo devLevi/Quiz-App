@@ -72,6 +72,12 @@ fieldset {
     margin: 20px 0;
 }
 
+#changing-info-wrap div {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
 .statusHeader {
     padding: none;
     margin: 5px;
